@@ -1,3 +1,15 @@
+{
+    box-sizing: border-box;
+}
+
+
+/* Center website */
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -10,6 +22,7 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
+    padding: 20px;
 
 
 }
@@ -165,4 +178,35 @@ hr {
     height: 3px;
     background-color: #89cff0;
     border: none;
+}
+
+
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+
+.content {
+    background-color: black;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
