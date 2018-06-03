@@ -3,7 +3,7 @@
 }
 
 
-/* Center website */
+/* Website */
 
 .main {
     max-width: 1000px;
@@ -34,7 +34,7 @@ nav {
     display: flex;
     background-color: #8ad0f1;
     padding: 2px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
     flex-wrap: wrap;
     text-transform: uppercase;
     justify-content: center;
@@ -91,8 +91,10 @@ nav ul li {
 
 }
 
+/*Links*/
+
 a:hover {
-    color: black;
+    color: #FFFCC9;
 }
 
 #om {
@@ -126,17 +128,8 @@ a:hover {
 
 }
 
-/*
 
-#splash1 {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-
-
-
-}
-*/
+/*portfolio temaer */
 
 #eksempler .sectionwrapper {
     display: flex;
@@ -144,11 +137,13 @@ a:hover {
     height: 100%;
 
 
+
 }
 
 #eksempler .column {
     flex-grow: 2;
     flex-basis: 300px;
+
 
 
 
@@ -227,7 +222,7 @@ hr {
 }
 
 
-/* Global */
+/* animation tekst*/
 
 .line-1 {
     position: relative;
@@ -240,7 +235,7 @@ hr {
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -256,7 +251,7 @@ hr {
         width: 0;
     }
     to {
-        width: 17em;
+        width: 13em;
     }
 }
 
