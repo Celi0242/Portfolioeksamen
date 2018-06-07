@@ -21,6 +21,11 @@ body {
 
 }
 
+#splash img {
+    width: 100%;
+
+}
+
 
 
 /* Navigation/ menu */
@@ -83,6 +88,10 @@ nav ul li {
 
 
 
+}
+
+#splash img {
+    width: 100%;
 }
 
 /*Links*/
@@ -230,7 +239,7 @@ hr {
 
 /* animation tekst*/
 
-.line-1 {
+.line {
     position: relative;
     top: 150%;
     width: 17em;
@@ -310,4 +319,136 @@ hr {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: "oswald", sans-serif;
+}
+
+/* KNAP */
+
+.button {
+    background-color: #8bd1f2;
+    border: solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: "oswald", sans-serif;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+    color: #FFFCC9;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+/* bar der bevæger sig */
+
+#myProgresskodning {
+    width: 95%;
+    background-color: lightgray;
+    color: #8bd1f2;
+    text-align: center;
+    border: 10px;
+    font-family: "oswald", sans-serif;
+
+}
+
+#myBarkodning {
+    width: 10%;
+    height: 30px;
+    background-color: white;
+}
+
+#myProgressillu {
+    width: 95%;
+    background-color: lightgray;
+    color: #8bd1f2;
+    text-align: center;
+    border: 20px;
+    font-family: "oswald", sans-serif;
+}
+
+#myBarillu {
+    width: 20%;
+    height: 30px;
+    background-color: white;
+    border: 20px;
+}
+
+#myProgressphoto {
+    width: 95%;
+    background-color: lightgray;
+    color: #8bd1f2;
+    text-align: center;
+    border: 10px;
+    font-family: "oswald", sans-serif;
+}
+
+#myBarphoto {
+    height: 30px;
+    background-color: white;
+}
+
+#myProgressxd {
+    width: 95%;
+    background-color: lightgray;
+    color: #8bd1f2;
+    text-align: center;
+    border: 10px;
+    font-family: "oswald", sans-serif;
+}
+
+#myBarxd {
+    width: 20%;
+    height: 30px;
+    background-color: white;
+}
+
+#myProgresside {
+    width: 95%;
+    background-color: lightgray;
+    color: #8bd1f2;
+    text-align: center;
+    border: 10px;
+    font-family: "oswald", sans-serif;
+}
+
+#myBaride {
+    width: 20%;
+    height: 30px;
+    background-color: white;
+}
+
+.tiltop1 a {
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #C37377;
+    font-weight: bold;
 }
