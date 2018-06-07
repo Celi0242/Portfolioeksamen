@@ -43,7 +43,8 @@ nav {
 }
 
 nav a {
-    color: white; // text-align: center;
+    color: white;
+    text-align: center;
     text-decoration: none;
     font-size: 17px;
 
@@ -118,7 +119,6 @@ a:hover {
 #top {
     display: flex;
     justify-content: center;
-
 
 }
 
@@ -316,7 +316,6 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: "oswald", sans-serif;
 }
@@ -329,41 +328,54 @@ hr {
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
-    padding: 10px;
-    width: 200px;
+    padding: 10px 30px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    font-family: "oswald", sans-serif;
-}
-
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+    font-family: "Oswald", sans-serif;
 
 }
 
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
 
-.button:hover span {
-    padding-right: 25px;
+.button:hover {
+    padding-right: 40px;
+    padding-left: 40px;
+    border: solid #FFFCC9;
     color: #FFFCC9;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
 
 }
+
+.button1 {
+    background-color: #8bd1f2;
+    border: solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: "Oswald", sans-serif;
+    left: 200px;
+}
+
+
+.button1:hover {
+    padding-right: 40px;
+    padding-left: 40px;
+    border: solid #FFFCC9;
+    color: #FFFCC9;
+
+}
+
+#knappen {
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 
 /* bar der bevæger sig */
 
@@ -443,12 +455,9 @@ hr {
     background-color: white;
 }
 
-.tiltop1 a {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
-    font-size: 1.7em;
-    text-decoration: none;
-    color: #C37377;
-    font-weight: bold;
+#cirkel {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    color: aqua;
 }
