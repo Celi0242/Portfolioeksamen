@@ -116,6 +116,10 @@ a:hover {
 
 }
 
+#om img {
+    width: 300px;
+}
+
 #top {
     display: flex;
     justify-content: center;
@@ -169,6 +173,10 @@ a:hover {
     margin: 10px;
     padding: 4px;
 
+}
+
+#eksempler img {
+    width: 360px;
 }
 
 
@@ -266,7 +274,7 @@ hr {
         width: 0;
     }
     to {
-        width: 13em;
+        width: 7.5em;
     }
 }
 
@@ -376,88 +384,41 @@ hr {
 }
 
 
-
-/* bar der bevæger sig */
-
-#myProgresskodning {
-    width: 95%;
-    background-color: lightgray;
-    color: #8bd1f2;
-    text-align: center;
-    border: 10px;
-    font-family: "oswald", sans-serif;
+.containerskills {
+    width: 350px;
+    background-color: #ddd;
 
 }
 
-#myBarkodning {
-    width: 10%;
-    height: 30px;
-    background-color: white;
-}
-
-#myProgressillu {
-    width: 95%;
-    background-color: lightgray;
-    color: #8bd1f2;
+.skills {
     text-align: center;
-    border: 20px;
+    padding-right: 15px;
+    line-height: 30px;
+    color: #8bd1f2;
     font-family: "oswald", sans-serif;
 }
 
-#myBarillu {
-    width: 20%;
-    height: 30px;
-    background-color: white;
-    border: 20px;
-}
-
-#myProgressphoto {
-    width: 95%;
-    background-color: lightgray;
-    color: #8bd1f2;
-    text-align: center;
-    border: 10px;
-    font-family: "oswald", sans-serif;
-}
-
-#myBarphoto {
-    height: 30px;
+.kode {
+    width: 65%;
     background-color: white;
 }
 
-#myProgressxd {
-    width: 95%;
-    background-color: lightgray;
-    color: #8bd1f2;
-    text-align: center;
-    border: 10px;
-    font-family: "oswald", sans-serif;
-}
-
-#myBarxd {
-    width: 20%;
-    height: 30px;
+.illu {
+    width: 80%;
     background-color: white;
 }
 
-#myProgresside {
-    width: 95%;
-    background-color: lightgray;
-    color: #8bd1f2;
-    text-align: center;
-    border: 10px;
-    font-family: "oswald", sans-serif;
-}
-
-#myBaride {
-    width: 20%;
-    height: 30px;
+.photo {
+    width: 55%;
     background-color: white;
 }
 
-#cirkel {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-    color: aqua;
+.xd {
+    width: 70%;
+    background-color: white;
+}
+
+.ide {
+    width: 70%;
+    background-color: white;
 }
