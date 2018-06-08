@@ -179,6 +179,38 @@ a:hover {
     width: 360px;
 }
 
+#eksempler_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+
+
+}
+
+#eksempler_2 .column {
+    flex-grow: 2;
+    flex-basis: 300px;
+
+
+
+
+}
+
+#eksempler_2 .column_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 4px;
+
+}
+
+#eksempler_2 img {
+    width: 360px;
+}
+
 
 
 .puls {
