@@ -281,6 +281,7 @@ hr {
 
 .line {
     position: relative;
+    left: -9px;
     top: 150%;
     width: 17em;
     margin: 0 auto;
@@ -415,6 +416,7 @@ hr {
 
 }
 
+/* Færdighedsbar */
 
 .containerskills {
     width: 350px;
@@ -453,4 +455,79 @@ hr {
 .ide {
     width: 70%;
     background-color: white;
+}
+
+
+/*Burger menu ved mobile*/
+
+@media screen and (max-width: 600px) {
+    nav.hidden {
+        display: none;
+
+
+    }
+
+    nav {
+        position: absolute;
+        background-color: rgba (255, 255, 255, 0.9);
+        width: 100%;
+        transform: translateY(0);
+        transform-origin: top;
+
+        transition: transform .5s;
+        z-index: 5;
+        align-content: center;
+
+
+
+    }
+
+    .hidden {
+        transform: translateY(-200px);
+
+    }
+
+    .menubutton {
+        width: 2em;
+        height: 2em;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        position: relative;
+        z-index: 10;
+        left: 9vw;
+
+
+    }
+
+
+    .bar {
+        width: 1.8em;
+        height: 0.4em;
+        background-color: white;
+        transition: transform .5s;
+
+    }
+
+    .kryds .bar1 {
+        transform: rotate(45deg) translate(8px, 7px);
+        background-color: #FFFCC9;
+
+
+    }
+
+    .kryds .bar2 {
+        visibility: hidden;
+
+
+    }
+
+    .kryds .bar3 {
+        transform: rotate(-45deg) translate(8px, -7px);
+        background-color: #FFFCC9
+    }
 }

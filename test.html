@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
 
 
@@ -14,27 +17,39 @@
     <header>
         <section id="top"><img src="images/logo.png" alt="logo"></section>
 
-        <nav>
+
+        <div class="menubutton">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+        </div>
+        <nav class="hidden">
 
             <ul>
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li class="dropdown"><a href="#">Portfolio</a>
                     <ul class="dropdown-content">
-                        <li><a href="tema1.html">Tema 1 - Grundlæggende HTML</a></li>
-                        <li><a href="tema2.html">Tema 2 - Animation</a></li>
-                        <li><a href="tema3.html">Tema 3 - Basic Content</a></li>
-                        <li><a href="tema4.html">Tema 4 - Grundlæggende UX </a></li>
+                        <li><a href="tema1.html">HTML</a></li>
+                        <li><a href="tema2.html">Animation</a></li>
+                        <li><a href="tema3.html">Basic Content</a></li>
+                        <li><a href="tema4.html">UX </a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <h1>Grundlæggende HTML</h1>
-    <br />
-    <hr /><br />
+    <br>
 
+    <section id="splash">
+
+        <div class="content">
+            <img alt="link" src="images/splashfinal1.png">
+        </div>
+    </section>
+
+    <h2>PORTFOLIO</h2>
     <div class="row">
         <div class="column">
             <div class="content">
@@ -42,7 +57,7 @@
                     <img alt="link" src="images/ban4.png" class="image" ><div class="overlay">
             <div class="text">HTML</div>
         </div></a></div>
-                <h3>Dokumentation og link</h3>
+                <h3>TEMA 1</h3>
                 <p>Indsamling af content samt HTML og CSS. Formålet ved dette forløb var at blive præsenteret til semesterets fremtidige emner. Herunder stilart gennemgang, at lægge en plan i InDesign og via sekvensdiagrammer, hvor vi til sidst skulle kode vores første hjemmeside. </p>
             </div>
         </div>
@@ -79,16 +94,20 @@
     </div>
 
 
-
     <footer>
         <br />
         <hr /><br /> <a href="https://www.instagram.com/celinalindqvist/">
-<img alt="link"src="images/insta.png"></a> <a href="https://www.facebook.com/celina.lindqvist">
+<img alt="link" src="images/insta.png"></a> <a href="https://www.facebook.com/celina.lindqvist">
 <img alt="link" src="images/nyface.png"></a><a href="https://www.linkedin.com/in/celina-lindqvist-52a777138/">
 <img alt="link" src="images/linnk.png"></a>
         <br>© Celina Lindqvist 2018
 
     </footer>
+    <section id="knappen">
+        <a href="#top" class="button1">GÅ TIL TOP</a>
+
+
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="js.js"></script>
 </body>
